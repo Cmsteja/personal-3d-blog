@@ -36,6 +36,23 @@ const ServiceCard = ({ index, title, icon }) => (
 );
 
 const About = () => {
+  const buttonStyle = {
+    backgroundColor: 'white',
+    color: 'black',
+    border: '1px solid black',
+    padding: '10px 20px',
+    textAlign: 'center',
+    textDecoration: 'none',
+    display: 'inline-block',
+    fontSize: '16px',
+    margin: '4px 2px',
+    cursor: 'pointer',
+    borderRadius: '5px',
+    marginTop: '30px',
+  };
+  const clickHandler = ()=>{
+
+  }
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -53,6 +70,10 @@ const About = () => {
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
+
+      <button onClick={clickHandler} style={buttonStyle}>
+          Find My resume here
+        </button>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

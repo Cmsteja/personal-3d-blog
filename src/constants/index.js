@@ -15,10 +15,6 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -119,10 +115,10 @@ const experiences = [
 
   {
     title: "Full stack Developer",
-    company_name: "Meta",
+    company_name: "BYJU'S",
     icon: byjus,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "June 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

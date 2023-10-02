@@ -2,7 +2,7 @@ import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { blog } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -21,7 +21,7 @@ const ProjectCard = ({
         options={{ max: 45, scale: 1, speed: 450 }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full"
       >
-        <div className="relative w-full h-[120px]">
+        <div className="relative w-full">
           
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
@@ -29,7 +29,7 @@ const ProjectCard = ({
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
-                src={github}
+                src={blog}
                 alt="github"
                 className="w-1/2 h-1/2 object-contain"
               />

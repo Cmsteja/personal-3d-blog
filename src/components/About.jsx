@@ -51,7 +51,7 @@ const About = () => {
     marginTop: '30px',
   };
   const clickHandler = ()=>{
-
+    
   }
   return (
     <>

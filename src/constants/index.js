@@ -43,11 +43,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Fullstack Web Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -124,10 +124,16 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Devised and implemented a robust pipeline to seamlessly propagate leads generated from marketing pages to the lead portal within Byjus, ensuring smooth and efficient data transfer.",
+      "Spearheaded the development of a series of captivating and dynamic frontend pages using the cutting-edge Next.js framework, enhancing the user experience and elevating the visual appeal of the web platform.",
+      "Developed multiple restful apis for the marketing pages.",
+      "Built a google based authentication system in tracking the users who are using the web application.",
+      "Collaborated on a team to create an empowering low-code platform for marketing, enabling seamless creation of captivating web pages for marketing in byjus.",
+      "Developed a tailored notification system utilizing a Slack webhook for receiving prompt alerts on code failures.",
+      "Integrated some feature toggling mechanism to the marketing pages for implementing some marketing strategies.",
+      "Guided and mentored interns in completing their onboarding task and initial projects.",
+      "Assisted in resolving challenges within the current pipeline to facilitate the transfer of student information to the CRM seamlessly.",
+      "Presently, I am involved in the development of an internal CRM system designed to capture leads and enhance customer management capabilities."
     ],
   },
 ];
@@ -181,6 +187,26 @@ const projects = [
     ],
     source_code_link: "https://suryatejachakkapalli.blogspot.com/2023/10/switch-to-java-from-javascript.html"
   },
+  {
+    name: "React Tutorial",
+    description:
+    "Explore systematically organized React concepts to gain a comprehensive understanding of key principles and functionalities. Navigate through each topic to gain insights into core concepts, enhancing proficiency in utilizing this powerful JavaScript library for dynamic user interfaces.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React Concepts",
+        color: "pink-text-gradient",
+      },
+    ],
+    source_code_link:"https://pointy-pixie-e68.notion.site/REACT-d4e7248da4824fa59c907b5607fa8a43?pvs=4"
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -51,7 +51,8 @@ const About = () => {
     marginTop: '30px',
   };
   const clickHandler = ()=>{
-    
+    // Add your click handler logic here
+    window.open('https://dochub.com/m/shared-document/studya999/gYzM7mBwDBG5anPKqJ6EoO/suryateja-chakkapalli-resume-2026-pdf?dt=c8PWYRxoeGPxKx3N11VB', '_blank');
   }
   return (
     <>

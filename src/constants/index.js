@@ -19,7 +19,10 @@ import {
   jobit,
   tripguide,
   threejs,
-  byjus
+  byjus,
+  phonepe,
+  problemSolver,
+  mentor
 } from "../assets";
 
 export const navLinks = [
@@ -43,11 +46,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Fullstack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "AI  Enthusiast",
     icon: mobile,
   },
   {
@@ -55,8 +58,16 @@ const services = [
     icon: backend,
   },
   {
+    title: "Problem Solver",
+    icon: problemSolver,
+  },
+  {
     title: "Content Creator",
     icon: creator,
+  },
+   {
+    title: "Mentor",
+    icon: mentor,
   },
 ];
 
@@ -128,6 +139,19 @@ const experiences = [
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Backend Developer",
+    company_name: "PhonePe",
+    icon: phonepe,
+    iconBg: "#E6DEDD",
+    date: "Jan 2024 - Present",
+    points: [
+      "Engineered a rapid-launch framework using Jolt specifications that slashed product deployment time by 86%, reducing the cycle from 15 days to just 2 days.",
+      "Architected a highly configurable rules engine for Travel Insurance, enabling real-time, personalized pricing based on user affluence, destination, and priority parameters.",
+      "Led a critical backend overhaul by transitioning legacy systems to a State Machine model, significantly increasing system predictability and operational stability.",
+      "Successfully executed an overnight data center migration during a geopolitical crisis, establishing robust Disaster Recovery (DR) capabilities to ensure zero business interruption."
     ],
   },
 ];

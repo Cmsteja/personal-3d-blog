@@ -31,6 +31,9 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import byjus from './byjusLogo.png';
 import blog from './tech/blog.png'
+import phonepe from "./company/phonepe.png";
+import problemSolver from "./problem-solver.png";
+import mentor from "./mentor.png";
 
 export {
   logo,
@@ -62,5 +65,6 @@ export {
   jobit,
   tripguide,
   byjus,
-  blog
+  blog,
+  phonepe,problemSolver, mentor
 };
